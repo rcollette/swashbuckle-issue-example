@@ -1,0 +1,18 @@
+#Mac file
+**/.DS_Store
+#IDE files
+**/*.DotSettings
+**/*.DotSettings.user
+**/.editorconfig
+**/.idea
+**/.vscode
+**/bin/
+**/obj/
+
+buildTestPublish.Dockerfile
+make-solution.sh
+**/run.sh
+**/docker-host-locally.sh
+
+unit-tests
+.template.config

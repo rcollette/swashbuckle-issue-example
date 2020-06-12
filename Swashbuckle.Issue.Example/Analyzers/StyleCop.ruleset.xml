@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="SendPro SasS Style Ruleset" Description="Code analysis rules for StyleCop.Analyzers." ToolsVersion="14.0">
+    <!-- <Include Path="StyleCop.Analyzers.ruleset" Action="Default" /> -->
+    <Rules AnalyzerId="Microsoft.Analyzers.ManagedCodeAnalysis" RuleNamespace="Microsoft.Rules.Managed">
+        <!--&lt;!&ndash;Changes to match CoreFx coding-guidelines https://github.com/dotnet/corefx/blob/master/Documentation/coding-guidelines/coding-style.md &ndash;&gt;-->
+        <!--&lt;!&ndash; Operator should not be followed by a whitespace (ex. typecast) &ndash;&gt;-->
+        <!--<Rule Id="SA1003" Action="None"/>-->
+        <!-- Single line comment should begin with a space. -->
+        <Rule Id="SA1005" Action="None"/>
+        <!--&lt;!&ndash; Closing parenthesis should not be followed by a space &ndash;&gt;-->
+        <!--<Rule Id="SA1009" Action="None"/>-->
+        <!-- Prefix local calls with this (not corefx compliant)-->
+        <Rule Id="SA1101" Action="None"/>
+        <!--&lt;!&ndash; Parameters should begin on the line after declaration when spanning multiple lines &ndash;&gt;-->
+        <!--<Rule Id="SA1116" Action="None"/>-->
+        <!-- Generic type constraints should be on their own line (VS doesn't implement)-->
+        <Rule Id="SA1127" Action="None"/>
+        <!--Using directive should appear within a namespace declaration (not corefx compliant)-->
+        <Rule Id="SA1200" Action="None"/>
+        <!-- Using orderings (not supported by visual studio yet) -->
+        <Rule Id="SA1208" Action="None"/>
+        <!--<Rule Id="SA1210" Action="None"/>-->
+        <!-- Field should not begin with an underscore (not corefx compliant)-->
+        <Rule Id="SA1309" Action="None"/>
+        <!-- Use trailing comma in multi-line initializers -->
+        <Rule Id="SA1413" Action="None"/>
+        <!-- Closing brace should be followed by blank line (not corefx compliant) -->
+        <Rule Id="SA1513" Action="None"/>
+        <!-- Single-line comment should be preceded by blank line (makes file big) -->
+        <Rule Id="SA1515" Action="None"/>
+        <!--&lt;!&ndash; File is required to end with a single newline character (VS does not do this)&ndash;&gt;-->
+        <!--<Rule Id="SA1518" Action="None"/>-->
+        <!-- elements should be documented -->
+        <Rule Id="SA1600" Action="None"/>
+        <!-- Partial Elements Should Be Documented (Migrations violate this rule) -->
+        <Rule Id="SA1601" Action="None"/>
+        <!--&lt;!&ndash; Element parameter documentation should have text &ndash;&gt;-->
+        <!--<Rule Id="SA1614" Action="None"/>-->
+        <!-- The file header is missing or not located at the top of the file. -->
+        <Rule Id="SA1633" Action="None"/>
+        <!-- Constructor summary should begin with standard text -->
+        <Rule Id="SA1642" Action="None"/>
+    </Rules>
+</RuleSet>

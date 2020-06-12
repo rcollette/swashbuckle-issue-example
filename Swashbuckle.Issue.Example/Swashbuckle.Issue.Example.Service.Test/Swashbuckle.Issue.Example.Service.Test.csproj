@@ -24,6 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Swashbuckle.Issue.Example.Repository\Swashbuckle.Issue.Example.Repository.csproj" />
     <ProjectReference Include="..\Swashbuckle.Issue.Example.Service\Swashbuckle.Issue.Example.Service.csproj" />
   </ItemGroup>
 
